@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+h1{
+ color: coral;   
+ 
+}
+body{
+    background-color: #ebedee;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.flex{
+    display:flex;
+    width:600px;
+    height:600px;
+    background-color:#eee;
+  }
+  
+  .flex div{
+    margin:auto;
+  }
+
+.avatar{
+    height: 150px;
+    width:  150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #60c92a;
+}
+.container{
+    text-align:center;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -400px;
+    /* margin-top、margin-left是長寬/2 */
+}
+
